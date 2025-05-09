@@ -1,0 +1,71 @@
+body {
+    font-family: "Caveat", cursive;
+    margin-top: 10%;
+    font-size: 20px;
+    background-color: rgb(89, 120, 160);
+    color: white;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid black;
+    width: 600px;
+    height: 500px;
+    margin-left: 28%;
+    background-color: rgb(137, 191, 232);
+    border-radius: 50px;
+}
+
+.information {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.about-me {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.my-picture {
+    width: 400px;
+    border-radius: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#color, #questions {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 20px 25px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(241, 169, 35);
+    transition: 0.2s opacity;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.4;
+}
